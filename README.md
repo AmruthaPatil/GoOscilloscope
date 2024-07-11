@@ -13,13 +13,13 @@ An oscilloscope is an electronic device that visually displays varying signal vo
 A sinusoidal wave is a continuous wave that describes a smooth periodic oscillation, characterized by its amplitude, frequency, and phase.
 
 **Formula**: 
-\[ y(t) = A(sin(2*pi*f*t + phi)) \]
+\[ y(t) = A(sin(2*pi*ft + *phi*)) \]
 
 Where:
 - \( A \) is the amplitude,
 - \( f \) is the frequency,
 - \( t \) is the time,
-- \( phi \) is the phase angle.
+- \( *phi* \) is the phase angle.
 
 ### Go's Ticker Library
 Go's `ticker` library from the `time` package generates periodic ticks at specified intervals, useful for triggering events at regular time periods.
